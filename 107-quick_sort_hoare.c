@@ -1,4 +1,5 @@
-#include "sort.h"
+#include <stdio.h>
+#include <stddef.h>
 int hoare(int *array, int left, int right, size_t size);
 void Qsort(int *array, int left, int right, size_t size);
 void swap(int *array, int *left, int *right, size_t size);
